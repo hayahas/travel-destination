@@ -1,5 +1,10 @@
+import Tour from "./tour/Tour";
+
 function Tours(props){
-    return(<div>
+    return(
+    
+    // <Tour/>
+    <div>
         <p> {props.name} </p>
             <img src={props.image} alt={props.name} />
     </div>);
